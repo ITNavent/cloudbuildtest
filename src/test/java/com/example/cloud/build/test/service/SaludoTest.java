@@ -20,7 +20,7 @@ public class SaludoTest {
 
     @Test
     public void saludoVacioTest(){
-        Assert.assertEquals("Buenardassss!!!",service.saludar(""));
+        Assert.assertEquals("Buenardassss !!!",service.saludar(""));
     }
 
 }
