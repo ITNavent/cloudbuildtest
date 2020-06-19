@@ -14,13 +14,13 @@ public class SaludoTest {
     @Test
     public void saludarAlguienTest(){
         String nombre = "Jose";
-        Assert.assertEquals("Buenardassss "+ nombre+"!!!",service.saludar(nombre));
+        Assert.assertEquals("Chau "+ nombre+"!!!",service.saludar(nombre));
     }
 
 
     @Test
     public void saludoVacioTest(){
-        Assert.assertEquals("Buenardassss !!!",service.saludar(""));
+        Assert.assertEquals("Chau !!!",service.saludar(""));
     }
 
 }

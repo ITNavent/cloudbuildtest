@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class SaludoService {
 
     public String saludar(String nombre){
-        return "Buenardassss "+nombre+"!!!" ;
+        return "Chau "+nombre+"!!!" ;
     }
 
 }
